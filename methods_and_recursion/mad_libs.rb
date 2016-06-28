@@ -1,11 +1,9 @@
 #!/usr/bin/env ruby
 
-
 def get_word(wordtype)
-  puts "Give me #{wordtype} "
+  print "Give me #{wordtype} "
   gets.chomp
 end
-
 
 mad_libs =
   "A vacation is when you take a trip to some #{get_word('an Adjective:')} place
