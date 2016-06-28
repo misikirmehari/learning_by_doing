@@ -1,18 +1,17 @@
 #!/usr/bin/env ruby
 
-1.upto (100) do |i|
+1.upto(100) do |number|
+  if number % 5 == 0 && number % 3 == 0
+    puts 'FizzBuzz'
+  elsif number % 5 == 0
+    puts 'Buzz'
+  elsif number % 3 == 0
+    puts 'Fizz'
+  else
+    puts number
 
-if i % 5 == 0 && i % 3 == 0
-  puts "FizzBuzz"
-else if i % 5 == 0
-       puts "Buzz"
-else if i % 3 == 0
-       puts "Fizz"
-else
-      puts i
-     end
-     end
-end
+
+  end
 end
 
 
