@@ -23,5 +23,4 @@ need vacations more than kids because parents are always very
 hours every day all year making enough #{get_word(' a plural noun: ')} to pay
 for the vacation."
 
-
 puts "Here is your madlib #{mad_libs} "
