@@ -21,16 +21,11 @@ class CoffeeMug
 
 
   def fill
-    if @mug_size ==
+    if @mug_size == 12
 
     if @cup_is_full
       puts 'Mug is full'
     end
-  end
-  def coffee_hot?
-
-
-    puts @cup_is_hot
   end
 
   def coffee_mug_size
@@ -50,9 +45,6 @@ class CoffeeMug
 
   end
 
-  def refill
-
-  end
 end
 
 
